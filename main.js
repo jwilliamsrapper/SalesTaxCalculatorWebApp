@@ -86,7 +86,7 @@ document.getElementById("cartButton").onclick = () => {
     // Connecticut
     if(getState == "CT"){
 
-        stateTax = .06;
+        stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
         document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
     }
@@ -165,7 +165,7 @@ document.getElementById("cartButton").onclick = () => {
     // Iowa
     if(getState == "IA"){
 
-        stateTax = .102;
+        stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
         document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
     }
@@ -313,7 +313,7 @@ document.getElementById("cartButton").onclick = () => {
     // New Jersey
     if(getState == "NJ"){
 
-        stateTax = .12;
+        stateTax = .06625;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
         document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
     }
@@ -421,7 +421,7 @@ document.getElementById("cartButton").onclick = () => {
     // South Dakota
     if(getState == "SD"){
 
-        stateTax = .06;
+        stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
         document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
     }
@@ -465,17 +465,6 @@ document.getElementById("cartButton").onclick = () => {
         dollarAmount = dollarAmount + dollarAmount * stateTax;
         document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
     }
-
-
-
-    //
-    if(getState == "VT"){
-
-        stateTax = .07;
-        dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
-    }
-
 
     // Virginia
     if(getState == "VA"){
