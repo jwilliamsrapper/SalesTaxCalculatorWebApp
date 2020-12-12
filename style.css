@@ -101,7 +101,8 @@ p {
 
 input {
     width:100%;
-    height: 30px;
+    height: 40px;
+    font-size: medium;
     
      }
 
@@ -109,6 +110,7 @@ input {
 form {
 
     justify-content: center;
+    
 }
 
 #cartTotal {
