@@ -1,7 +1,3 @@
-// Class variables
-
-
-
 // clear button
 document.getElementById("clearButton").onclick = () =>
 {
