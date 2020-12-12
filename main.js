@@ -6,14 +6,13 @@
 document.getElementById("clearButton").onclick = () =>
 {
     document.getElementById("textInput").value = "";
-    document.getElementById("cartTotal").innerHTML = "Your estimated total is $0.00";
+    document.getElementById("cartTotal").innerHTML = "Estimated total is $0.00";
     document.getElementById("state").value = "None";
     
 }
 
 
 // twitter button
-
 document.getElementById("twitter").onclick = () =>
 {
     window.open("https://twitter.com/imjaewilliams");
@@ -55,7 +54,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .107;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
     // Arkansas
@@ -63,7 +62,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .11;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
     // California
@@ -71,7 +70,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .102;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
      // Colorado
@@ -79,7 +78,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .09;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -88,7 +87,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -99,7 +98,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = 0;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
    // District Of Columbia
@@ -107,7 +106,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .06;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
      // Florida
@@ -115,7 +114,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
      // Georgia
@@ -131,7 +130,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .047;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -140,7 +139,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -149,7 +148,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .101;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -158,7 +157,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -167,7 +166,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -178,7 +177,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .101;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
     
@@ -187,7 +186,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .06;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -197,7 +196,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .11;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -207,7 +206,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .055;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -216,7 +215,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .06;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -225,7 +224,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .0625;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -235,7 +234,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .06;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -245,7 +244,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .072;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -255,7 +254,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -266,7 +265,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .101;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -276,7 +275,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = 0;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -285,7 +284,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -295,7 +294,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -305,7 +304,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = 0;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -315,7 +314,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .06625;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -325,7 +324,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -334,7 +333,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -344,7 +343,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -354,7 +353,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -363,7 +362,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -373,7 +372,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .11;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -383,7 +382,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = 0;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -393,7 +392,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -403,7 +402,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -413,7 +412,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .09;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -423,7 +422,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -433,7 +432,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .09;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -443,7 +442,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -453,7 +452,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -463,7 +462,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
     // Virginia
@@ -471,7 +470,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .06;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -480,7 +479,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .101;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -489,7 +488,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .07;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
     
@@ -499,7 +498,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .065;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
 
 
@@ -508,7 +507,7 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .06;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        document.getElementById("cartTotal").innerHTML = "Your estimated true cost is $" + dollarAmount.toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated true cost is $" + dollarAmount.toFixed(2);
     }
   
 
