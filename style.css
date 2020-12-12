@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+html, body{ 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;   
+    
+}
+
+h1 {
+   
+    color: white;
+    font-size: large;
+    padding-left: 25px;
+    margin-top: 25px;
+
+   
+}
+
+h2 { 
+   
+    color: white;
+    font-size: medium;
+    padding-left: 25px;
+    margin-top: 25px;
+   
+
+
+}
+
+
+#selectStateHelper {
+
+    font-size: small;
+    color: rgb(185, 185, 185);
+    margin-top: 2px;
+}
+
+
+#amountText {
+
+    font-size: small;
+    color: rgb(185, 185, 185);
+    margin-top: 2px;
+}
+
+
+
+p {
+  color: white;
+  margin-top: 15px;
+  padding-left: 25px;
+  font-size: large;
+
+}
+
+.fas {
+    color: white;
+    font-size: 35px;
+    margin-left: 35px;
+    margin-top: 5px;
+   
+   
+    
+    
+   
+}
+
+.far {
+
+    color: white;
+    font-size: 35px; 
+    margin-left: 25px;
+    margin-top: 5px;  
+   
+}
+
+
+.fab {
+
+    color: white;
+    font-size: 35px; 
+    margin-left: 25px;
+    margin-top: 5px;  
+
+}
+
+#cartTotal {
+
+    margin-top: 25px;
+}
+
+#state {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#myForm {
+
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px; 
+
+}
+
