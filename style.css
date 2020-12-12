@@ -121,6 +121,9 @@ form {
 #state {
     
     margin-top: 25px;
+    height: 30px;
+    font-size: medium;
+    
 }
 
 #myForm {
