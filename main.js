@@ -19,8 +19,6 @@ document.getElementById("cartButton").onclick = () => {
     var dollarAmount = parseFloat(document.getElementById("textInput").value);
     var getState = document.getElementById("state").value;
     
-
-    
     if(isNaN(dollarAmount)){
         alert('Please enter in a value e.g 4.99');
         dollarAmount = 0;
@@ -508,7 +506,7 @@ document.getElementById("cartButton").onclick = () => {
   
 
   
-};
+}
 
 
 
