@@ -99,13 +99,22 @@ p {
 }
 
 
+input[type="text"] {
+    font-size: larger;
+}
+
+
 input {
     width:100%;
     height: 40px;
     background-color: #686868;
     color: honeydew;
+    font-size: medium;
     
      }
+
+
+
 
 
 form {
