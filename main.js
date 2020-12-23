@@ -16,8 +16,8 @@ document.getElementById("twitter").onclick = () =>
 
 // sales tax calculation button 
 document.getElementById("cartButton").onclick = () => {
-    var dollarAmount = parseFloat(document.getElementById("textInput").value);
-    var getState = document.getElementById("state").value;
+    let dollarAmount = parseFloat(document.getElementById("textInput").value);
+    let getState = document.getElementById("state").value;
     
     if(isNaN(dollarAmount)){
         alert('Please enter in a value e.g 4.99');
@@ -116,7 +116,8 @@ document.getElementById("cartButton").onclick = () => {
 
         stateTax = .08;
         dollarAmount = dollarAmount + dollarAmount * stateTax;
-        alert("Your esitmated true cost is $" + dollarAmount).toFixed(2);
+        document.getElementById("cartTotal").innerHTML = "Estimated cost is $" + dollarAmount.toFixed(2);
+        
     }
 
     //  Hawai
