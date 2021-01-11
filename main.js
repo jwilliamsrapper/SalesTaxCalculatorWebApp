@@ -8,12 +8,6 @@ document.getElementById("clearButton").onclick = () =>
 }
 
 
-// twitter button
-document.getElementById("twitter").onclick = () =>
-{
-    window.open("https://twitter.com/imjaewilliams");
-}
-
 // sales tax calculation button 
 document.getElementById("cartButton").onclick = () => {
     let dollarAmount = parseFloat(document.getElementById("textInput").value);
