@@ -47,10 +47,16 @@ h2 {
 h3 {
 
     color: white;
-    margin-top: 5px;
+    margin-top: 10px;
+   
 
 }
 
+#info {
+
+    padding-top: 30px;
+    font-size: small; 
+}
 
 #selectStateHelper {
 
